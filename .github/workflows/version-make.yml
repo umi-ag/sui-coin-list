@@ -23,6 +23,7 @@ jobs:
       - name: Update version
         run: |
           ./version-make up -rz package.json
+          ./version-make set Move.toml --version $(./version-make show typescript/package.json)
       - name: git tag version
         run: |
           VERSION=$(./version-make show --core package.json)
