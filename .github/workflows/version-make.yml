@@ -1,0 +1,32 @@
+name: version-make
+
+on:
+  pull_request:
+    branches:
+      - alpha
+    types: [closed]
+
+jobs:
+  version-make:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repo
+        uses: actions/checkout@v2
+      - name: Download version-make binary
+        run: |
+          wget https://github.com/fuyutarow/version-make/releases/download/v0.202005.1/version-make-v0.202005.1-x86_64-linux.zip -O version-make.zip
+          unzip -o version-make.zip
+      - name: Config git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      - name: Update version
+        run: |
+          ./version-make up -rz package.json
+      - name: git tag version
+        run: |
+          VERSION=$(./version-make show --core package.json)
+          git commit -am "[GitHub Actions] v${VERSION}"
+          git push
+          git tag v${VERSION}
+          git push --tags
