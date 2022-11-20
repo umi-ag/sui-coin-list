@@ -22,11 +22,11 @@ jobs:
           git config --local user.name "GitHub Action"
       - name: Update version
         run: |
-          ./version-make up -rz package.json
+          ./version-make up -rz typescript/package.json
           ./version-make set Move.toml --version $(./version-make show typescript/package.json)
       - name: git tag version
         run: |
-          VERSION=$(./version-make show --core package.json)
+          VERSION=$(./version-make show --core typescript/package.json)
           git commit -am "[GitHub Actions] v${VERSION}"
           git push
           git tag v${VERSION}

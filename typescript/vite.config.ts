@@ -23,9 +23,9 @@ export default defineConfig({
     target: 'esnext',
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'sui-sdk',
+      name: 'sui-coin-list',
       formats: ['es', 'umd'],
-      fileName: (format) => `sui-sdk.${format}.js`,
+      fileName: (format) => `sui-coin-list.${format}.js`,
     },
   },
   optimizeDeps: {
