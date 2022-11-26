@@ -33,11 +33,11 @@ sui client call \
 [tasks."alice:mint:BTC"]
 script = '''
 sui client call \
-  --package 0x79da456c175664cd0892c8c62e154186fb065675 \
+  --package 0x4e58cae8dca973030dd84459bdf9cd70e65dcc80 \
   --module devnet_btc \
   --function mint \
   --args \
-    0x29e2d0970e62a6c76839736132e394072e3292f4 \
+    0x6ee60687c8d002ddc8efda046099f6dd96c9dc8c \
     100 \
   --gas-budget 1000
 '''
