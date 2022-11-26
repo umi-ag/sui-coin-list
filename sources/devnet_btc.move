@@ -7,7 +7,7 @@ module coin_list::devnet_btc {
 
     fun init(witness: DEVNET_BTC, ctx: &mut TxContext)
     {
-        let treasury_cap = coin::create_currency<DEVNET_BTC>(witness, 2, ctx);
+        let treasury_cap = coin::create_currency<DEVNET_BTC>(witness, 8, ctx);
         transfer::transfer(treasury_cap, tx_context::sender(ctx))
     }
 

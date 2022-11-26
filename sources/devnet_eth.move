@@ -7,7 +7,7 @@ module coin_list::devnet_eth {
 
     fun init(witness: DEVNET_ETH, ctx: &mut TxContext)
     {
-        let treasury_cap = coin::create_currency<DEVNET_ETH>(witness, 2, ctx);
+        let treasury_cap = coin::create_currency<DEVNET_ETH>(witness, 6, ctx);
         transfer::transfer(treasury_cap, tx_context::sender(ctx))
     }
 

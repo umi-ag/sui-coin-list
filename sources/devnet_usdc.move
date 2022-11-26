@@ -7,7 +7,7 @@ module coin_list::devnet_usdc {
 
     fun init(witness: DEVNET_USDC, ctx: &mut TxContext)
     {
-        let treasury_cap = coin::create_currency<DEVNET_USDC>(witness, 2, ctx);
+        let treasury_cap = coin::create_currency<DEVNET_USDC>(witness, 6, ctx);
         transfer::transfer(treasury_cap, tx_context::sender(ctx))
     }
 

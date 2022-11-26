@@ -30,26 +30,26 @@ sui client call \
   --gas-budget 1000
 '''
 
-# --package 0xb48107fcb0235df7f3f983266e2daa0fccfe22fe \
-# --module coin_list \
-# --function init_devnet_BTC \
 [tasks."alice:mint:BTC"]
 script = '''
 sui client call \
-  --package 0xda4607878cebdbe5c818dbf1b4be2c54467091b5 \
+  --package 0x79da456c175664cd0892c8c62e154186fb065675 \
   --module devnet_btc \
   --function mint \
   --args \
-    0x02514d2a7aaf75372e14d37cb487dc1b482239eb \
+    0x29e2d0970e62a6c76839736132e394072e3292f4 \
     100 \
   --gas-budget 1000
 '''
 
-[tasks."alice:faucet:BTC"]
+[tasks."alice:mint:ETH"]
 script = '''
 sui client call \
-  --package 0x392c4b2f7c710cb1f4f9cd0b7747ef8ba124fb53 \
-  --module coin_list \
-  --function init_devnet_BTC \
+  --package 0x79da456c175664cd0892c8c62e154186fb065675 \
+  --module devnet_eth \
+  --function mint \
+  --args \
+    0x2800cbcd4484569a986e3fceee08b541f0bfd4d4 \
+    100 \
   --gas-budget 1000
 '''
