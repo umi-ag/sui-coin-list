@@ -11,6 +11,10 @@ indent_style = tab
 [*.{md,markdown}]
 insert_final_newline = false
 
+[*.{move}]
+indent_size = 4
+indent_style = space
+
 [*.{json,js,ts,jsx,tsx}]
 indent_size = 2
 indent_style = space
