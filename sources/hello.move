@@ -1,5 +1,5 @@
 
-module coin_list::coin_list2 {
+module coin_list::coin_list {
     // use std::option;
     // use sui::coin::{Self, TreasuryCap};
     // use sui::transfer;

@@ -1,7 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
-/// Example coin with a trusted owner responsible for minting/burning (e.g., a stablecoin)
 module coin_list::devnet_btc {
     use sui::coin::{Self, TreasuryCap};
     use sui::transfer;
@@ -27,7 +23,6 @@ module coin_list::devnet_btc {
     }
 
     #[test_only]
-    /// Wrapper of module initializer for testing
     public fun test_init(ctx: &mut TxContext)
     {
         init(DEVNET_BTC {}, ctx)
