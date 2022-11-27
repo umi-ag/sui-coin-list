@@ -44,8 +44,8 @@ export const coinlist: CoinProfile[] = [
       objectName: "SUI",
     },
     extensions: {
-      coingeckoId: 'bitcoin',
-      yahoofinaceSymbol: 'BTC-USD',
+      website: 'https://sui.io',
+      coingeckoId: 'sui',
     }
   },
   {
