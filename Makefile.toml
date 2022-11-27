@@ -45,11 +45,11 @@ sui client call \
 [tasks."alice:mint:ETH"]
 script = '''
 sui client call \
-  --package 0x79da456c175664cd0892c8c62e154186fb065675 \
+  --package 0x4e58cae8dca973030dd84459bdf9cd70e65dcc80 \
   --module devnet_eth \
   --function mint \
   --args \
-    0x2800cbcd4484569a986e3fceee08b541f0bfd4d4 \
+    0x5f43d1573427e99b5469b19aa1fa97f5ba133090 \
     100 \
   --gas-budget 1000
 '''
