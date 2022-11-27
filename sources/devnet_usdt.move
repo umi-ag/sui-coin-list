@@ -8,7 +8,8 @@ module coin_list::devnet_usdt {
     fun init(witness: DEVNET_USDT, ctx: &mut TxContext)
     {
         let treasury_cap = coin::create_currency<DEVNET_USDT>(witness, 8, ctx);
-        transfer::transfer(treasury_cap, tx_context::sender(ctx))
+        // Make it a share object so that anyone can mint
+        transfer::share_object(treasury_cap)
     }
 
     public entry fun mint(treasury_cap: &mut TreasuryCap<DEVNET_USDT>, amount: u64, ctx: &mut TxContext)
