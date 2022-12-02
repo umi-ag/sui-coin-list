@@ -55,9 +55,9 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'BTC',
     decimals: 8,
     logoURI: 'https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579',
-    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_btc::DEVNET_BTC",
+    type: ":0xae55acd146e9e8343c1da06a57dbadb8c9975a5d:devnet_btc::DEVNET_BTC",
     objects: {
-      package: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d',
+      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
       module: 'devnet_btc',
       objectName: "DEVNET_BTC",
       CoinMetadata: '0x9ec83f27407aeb25eb19141cffceab4526704010',
@@ -76,7 +76,7 @@ export const coinlist: CoinProfile[] = [
     logoURI: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880',
     type: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_eth::DEVNET_ETH',
     objects: {
-      package: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d',
+      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
       module: 'devnet_eth',
       objectName: "DEVNET_ETH",
       CoinMetadata: '0x20e477a9d258c0870971ea777c387ee0c710147a',
@@ -95,7 +95,7 @@ export const coinlist: CoinProfile[] = [
     logoURI: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
     type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_usdc::DEVNET_USDC",
     objects: {
-      package: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d',
+      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
       module: 'devnet_usdc',
       objectName: "DEVNET_USDC",
       CoinMetadata: '0x4147771612b8e6441a9b2c3ee72650e0a942bc4a',
@@ -114,7 +114,7 @@ export const coinlist: CoinProfile[] = [
     logoURI: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707',
     type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_usdt::DEVNET_USDT",
     objects: {
-      package: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d',
+      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
       module: 'devnet_usdt',
       objectName: "DEVNET_USDT",
       CoinMetadata: '0x178f9b2d5eb7bc6f1ee747c3ba910cafa4508ffc',
