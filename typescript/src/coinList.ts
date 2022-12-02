@@ -93,7 +93,7 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'USDC',
     decimals: 6,
     logoURI: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
-    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_btc::DEVNET_USDC",
+    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_usdc::DEVNET_USDC",
     objects: {
       package: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d',
       module: 'devnet_usdc',
@@ -112,7 +112,7 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'USDT',
     decimals: 6,
     logoURI: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707',
-    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_btc::DEVNET_USDT",
+    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_usdt::DEVNET_USDT",
     objects: {
       package: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d',
       module: 'devnet_usdt',
