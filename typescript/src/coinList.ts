@@ -38,7 +38,7 @@ export const coinlist: CoinProfile[] = [
     decimals: 9,
     logoURI: 'https://cryptototem.com/wp-content/uploads/2022/08/SUI-logo.jpg',
     objects: {
-      type: '0x2::coin::Coin<0x2::sui::SUI>',
+      type: '0x2::sui::SUI',
       package: "0x2",
       module: 'sui',
       objectName: "SUI",
@@ -55,7 +55,7 @@ export const coinlist: CoinProfile[] = [
     decimals: 8,
     logoURI: 'https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579',
     objects: {
-      type: "0x2::coin::Coin<0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_btc::DEVNET_BTC>",
+      type: "0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_btc::DEVNET_BTC",
       package: "0x4e58cae8dca973030dd84459bdf9cd70e65dcc80",
       module: 'devnet_btc',
       objectName: "DEVNET_BTC",
@@ -73,7 +73,7 @@ export const coinlist: CoinProfile[] = [
     decimals: 8,
     logoURI: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880',
     objects: {
-      type: '0x2::coin::Coin<0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_eth::DEVNET_ETH>',
+      type: '0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_eth::DEVNET_ETH',
       package: "0x4e58cae8dca973030dd84459bdf9cd70e65dcc80",
       module: 'devnet_eth',
       objectName: "DEVNET_ETH",
@@ -91,7 +91,7 @@ export const coinlist: CoinProfile[] = [
     decimals: 6,
     logoURI: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
     objects: {
-      type: "0x2::coin::Coin<0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_usdc::DEVNET_USDC>",
+      type: "0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_usdc::DEVNET_USDC",
       package: "0x4e58cae8dca973030dd84459bdf9cd70e65dcc80",
       module: 'devnet_usdc',
       objectName: "DEVNET_USDC",
@@ -109,7 +109,7 @@ export const coinlist: CoinProfile[] = [
     decimals: 6,
     logoURI: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707',
     objects: {
-      type: '0x2::coin::Coin<0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_usdt::DEVNET_USDT>',
+      type: '0x4e58cae8dca973030dd84459bdf9cd70e65dcc80::devnet_usdt::DEVNET_USDT',
       package: "0x4e58cae8dca973030dd84459bdf9cd70e65dcc80",
       module: 'devnet_usdt',
       objectName: "DEVNET_USDT",
