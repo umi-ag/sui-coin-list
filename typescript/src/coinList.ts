@@ -55,7 +55,7 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'BTC',
     decimals: 8,
     logoURI: 'https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579',
-    type: ":0xae55acd146e9e8343c1da06a57dbadb8c9975a5d:devnet_btc::DEVNET_BTC",
+    type: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_btc::DEVNET_BTC',
     objects: {
       package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
       module: 'devnet_btc',
