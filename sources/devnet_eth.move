@@ -13,7 +13,7 @@ module coin_list::devnet_eth {
             6,
             b"ETH",
             b"Etherum",
-            b"",
+            b"https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880",
             option::none(),
             ctx
         );

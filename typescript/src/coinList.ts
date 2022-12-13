@@ -55,13 +55,13 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'BTC',
     decimals: 8,
     logoURI: 'https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579',
-    type: ":0xae55acd146e9e8343c1da06a57dbadb8c9975a5d:devnet_btc::DEVNET_BTC",
+    type: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106::devnet_btc::DEVNET_BTC",
     objects: {
-      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
+      package: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106",
       module: 'devnet_btc',
       objectName: "DEVNET_BTC",
-      CoinMetadata: '0x9ec83f27407aeb25eb19141cffceab4526704010',
-      TreasuryCap: '0xcae9e5f66d567429c8e11e32872024d3b47d767b',
+      TreasuryCap: '0xac9e3846a9ecb71a36b733d15dd602985eb6b429',
+      CoinMetadata: '0x936118c9f1da56a85417aef914b6af82490f41bc'
     },
     extensions: {
       coingeckoId: 'bitcoin',
@@ -74,13 +74,13 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'ETH',
     decimals: 8,
     logoURI: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880',
-    type: '0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_eth::DEVNET_ETH',
+    type: '0x7640c51d7d7c56aa84d55d3274847397ef9c7106::devnet_eth::DEVNET_ETH',
     objects: {
-      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
+      package: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106",
       module: 'devnet_eth',
       objectName: "DEVNET_ETH",
-      CoinMetadata: '0x20e477a9d258c0870971ea777c387ee0c710147a',
-      TreasuryCap: '0xf491dd721fc4a06ea95de18610d66b6f5efc5d61',
+      TreasuryCap: '0xa8e8cbc71a743ac0bd0dc1a5f183287630988d2b',
+      CoinMetadata: '0xcb0efcfda24470c28c3cd690548cbba27a54ed90'
     },
     extensions: {
       coingeckoId: 'ethereum',
@@ -93,13 +93,13 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'USDC',
     decimals: 6,
     logoURI: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
-    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_usdc::DEVNET_USDC",
+    type: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106::devnet_usdc::DEVNET_USDC",
     objects: {
-      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
+      package: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106",
       module: 'devnet_usdc',
       objectName: "DEVNET_USDC",
-      CoinMetadata: '0x4147771612b8e6441a9b2c3ee72650e0a942bc4a',
-      TreasuryCap: '0x89c760727b548b111e2bee1933c18674be1e4063',
+      TreasuryCap: '0x3c82d04a7fd78f6c2801279f2ad12aaed16ac6e2',
+      CoinMetadata: '0x2a031be45c7bf16ca774f8071b94e6765a2c618e'
     },
     extensions: {
       coingeckoId: 'usd-coin',
@@ -112,13 +112,13 @@ export const coinlist: CoinProfile[] = [
     officialSymbol: 'USDT',
     decimals: 6,
     logoURI: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707',
-    type: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d::devnet_usdt::DEVNET_USDT",
+    type: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106::devnet_usdt::DEVNET_USDT",
     objects: {
-      package: "0xae55acd146e9e8343c1da06a57dbadb8c9975a5d",
+      package: "0x7640c51d7d7c56aa84d55d3274847397ef9c7106",
       module: 'devnet_usdt',
       objectName: "DEVNET_USDT",
-      CoinMetadata: '0x178f9b2d5eb7bc6f1ee747c3ba910cafa4508ffc',
-      TreasuryCap: '0x8a7d2cfa3004777123fbf61e38091314c914aaf4',
+      CoinMetadata: "0x242005acc315c8945ba28f5c74c6eb2053ca8c04",
+      TreasuryCap: "0x66ac48240f196e4c1f05d4a7aa26afc032240786",
     },
     extensions: {
       coingeckoId: 'tether',
