@@ -20,6 +20,8 @@
     "noEmit": true,
   },
   "include": [
-    "./src"
+    "./src",
+    "scripts/temp.js",
+    "scripts/temp.ts"
   ]
 }
