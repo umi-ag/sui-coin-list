@@ -21,7 +21,5 @@
   },
   "include": [
     "./src",
-    "scripts/temp.js",
-    "scripts/temp.ts"
   ]
 }
