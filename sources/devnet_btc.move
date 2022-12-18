@@ -13,7 +13,7 @@ module coin_list::devnet_btc {
             8,
             b"BTC",
             b"Bitcoin",
-            b"",
+            b"https://cryptototem.com/wp-content/uploads/2022/08/SUI-logo.jpg",
             option::none(),
             ctx
         );

@@ -13,7 +13,7 @@ module coin_list::devnet_usdc {
             6,
             b"USDC",
             b"USD coin",
-            b"",
+            b"https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389",
             option::none(),
             ctx
         );

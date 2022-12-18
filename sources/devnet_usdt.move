@@ -14,7 +14,7 @@ module coin_list::devnet_usdt {
             8,
             b"USDT",
             b"Tether",
-            b"",
+            b"https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707",
             option::none(),
             ctx
         );
