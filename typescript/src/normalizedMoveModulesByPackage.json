@@ -1,0 +1,362 @@
+{
+  "coin_list": {
+    "file_format_version": 6,
+    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+    "name": "coin_list",
+    "friends": [],
+    "structs": {},
+    "exposed_functions": {}
+  },
+  "devnet_btc": {
+    "file_format_version": 6,
+    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+    "name": "devnet_btc",
+    "friends": [],
+    "structs": {
+      "DEVNET_BTC": {
+        "abilities": {
+          "abilities": [
+            "Drop"
+          ]
+        },
+        "type_parameters": [],
+        "fields": [
+          {
+            "name": "dummy_field",
+            "type_": "Bool"
+          }
+        ]
+      }
+    },
+    "exposed_functions": {
+      "mint": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "coin",
+                "name": "TreasuryCap",
+                "type_arguments": [
+                  {
+                    "Struct": {
+                      "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                      "module": "devnet_btc",
+                      "name": "DEVNET_BTC",
+                      "type_arguments": []
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "U64",
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "tx_context",
+                "name": "TxContext",
+                "type_arguments": []
+              }
+            }
+          }
+        ],
+        "return_": []
+      },
+      "transfer": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "Struct": {
+              "address": "0x2",
+              "module": "coin",
+              "name": "TreasuryCap",
+              "type_arguments": [
+                {
+                  "Struct": {
+                    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                    "module": "devnet_btc",
+                    "name": "DEVNET_BTC",
+                    "type_arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          "Address"
+        ],
+        "return_": []
+      }
+    }
+  },
+  "devnet_eth": {
+    "file_format_version": 6,
+    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+    "name": "devnet_eth",
+    "friends": [],
+    "structs": {
+      "DEVNET_ETH": {
+        "abilities": {
+          "abilities": [
+            "Drop"
+          ]
+        },
+        "type_parameters": [],
+        "fields": [
+          {
+            "name": "dummy_field",
+            "type_": "Bool"
+          }
+        ]
+      }
+    },
+    "exposed_functions": {
+      "mint": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "coin",
+                "name": "TreasuryCap",
+                "type_arguments": [
+                  {
+                    "Struct": {
+                      "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                      "module": "devnet_eth",
+                      "name": "DEVNET_ETH",
+                      "type_arguments": []
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "U64",
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "tx_context",
+                "name": "TxContext",
+                "type_arguments": []
+              }
+            }
+          }
+        ],
+        "return_": []
+      },
+      "transfer": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "Struct": {
+              "address": "0x2",
+              "module": "coin",
+              "name": "TreasuryCap",
+              "type_arguments": [
+                {
+                  "Struct": {
+                    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                    "module": "devnet_eth",
+                    "name": "DEVNET_ETH",
+                    "type_arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          "Address"
+        ],
+        "return_": []
+      }
+    }
+  },
+  "devnet_usdc": {
+    "file_format_version": 6,
+    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+    "name": "devnet_usdc",
+    "friends": [],
+    "structs": {
+      "DEVNET_USDC": {
+        "abilities": {
+          "abilities": [
+            "Drop"
+          ]
+        },
+        "type_parameters": [],
+        "fields": [
+          {
+            "name": "dummy_field",
+            "type_": "Bool"
+          }
+        ]
+      }
+    },
+    "exposed_functions": {
+      "mint": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "coin",
+                "name": "TreasuryCap",
+                "type_arguments": [
+                  {
+                    "Struct": {
+                      "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                      "module": "devnet_usdc",
+                      "name": "DEVNET_USDC",
+                      "type_arguments": []
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "U64",
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "tx_context",
+                "name": "TxContext",
+                "type_arguments": []
+              }
+            }
+          }
+        ],
+        "return_": []
+      },
+      "transfer": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "Struct": {
+              "address": "0x2",
+              "module": "coin",
+              "name": "TreasuryCap",
+              "type_arguments": [
+                {
+                  "Struct": {
+                    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                    "module": "devnet_usdc",
+                    "name": "DEVNET_USDC",
+                    "type_arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          "Address"
+        ],
+        "return_": []
+      }
+    }
+  },
+  "devnet_usdt": {
+    "file_format_version": 6,
+    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+    "name": "devnet_usdt",
+    "friends": [],
+    "structs": {
+      "DEVNET_USDT": {
+        "abilities": {
+          "abilities": [
+            "Drop"
+          ]
+        },
+        "type_parameters": [],
+        "fields": [
+          {
+            "name": "dummy_field",
+            "type_": "Bool"
+          }
+        ]
+      }
+    },
+    "exposed_functions": {
+      "mint": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "coin",
+                "name": "TreasuryCap",
+                "type_arguments": [
+                  {
+                    "Struct": {
+                      "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                      "module": "devnet_usdt",
+                      "name": "DEVNET_USDT",
+                      "type_arguments": []
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "U64",
+          {
+            "MutableReference": {
+              "Struct": {
+                "address": "0x2",
+                "module": "tx_context",
+                "name": "TxContext",
+                "type_arguments": []
+              }
+            }
+          }
+        ],
+        "return_": []
+      },
+      "transfer": {
+        "visibility": "Public",
+        "is_entry": true,
+        "type_parameters": [],
+        "parameters": [
+          {
+            "Struct": {
+              "address": "0x2",
+              "module": "coin",
+              "name": "TreasuryCap",
+              "type_arguments": [
+                {
+                  "Struct": {
+                    "address": "0x9a467cc3f965897ff6032c07fbf14803e430840b",
+                    "module": "devnet_usdt",
+                    "name": "DEVNET_USDT",
+                    "type_arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          "Address"
+        ],
+        "return_": []
+      }
+    }
+  }
+}
