@@ -17,7 +17,6 @@
   },
   "scripts": {
     "dev": "vite build --watch",
-    "dd": "vite-node ./scripts/temp",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
