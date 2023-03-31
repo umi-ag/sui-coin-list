@@ -3,8 +3,9 @@ name = "coin_list"
 version = "0.0.1"
 
 [dependencies]
-Sui = {git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet"}
+Sui = {git = "https://github.com/MystenLabs/sui", rev = "testnet", subdir = "crates/sui-framework/packages/sui-framework"}
 
 [addresses]
-coin_list = "0x0"
-sui = "0000000000000000000000000000000000000002"
+# coin_list = "0x0"
+coin_list = "0xda50fbb5eeb573e9825117b45564fd83abcdb487b5746f37a4a7c368f34a71ef"
+sui = "0x2"
