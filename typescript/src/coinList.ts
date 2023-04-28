@@ -126,3 +126,7 @@ export const coinlist: CoinProfile[] = [
     }
   },
 ];
+
+export const findCoinByType = (coinType: string) => {
+  return coinlist.find(coin => coin.type === coinType);
+};
