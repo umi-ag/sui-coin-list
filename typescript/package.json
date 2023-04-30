@@ -1,18 +1,19 @@
 {
   "name": "@umi-ag/sui-coin-list",
-  "version": "0.202304.1",
+  "version": "0.202304.2",
   "description": "",
   "files": [
     "src",
     "dist"
   ],
-  "main": "./dist/sui-coin-list.umd.js",
-  "module": "./dist/sui-coin-list.es.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/sui-coin-list.es.js",
-      "require": "./dist/sui-coin-list.umd.js"
+      "source": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     }
   },
   "scripts": {
