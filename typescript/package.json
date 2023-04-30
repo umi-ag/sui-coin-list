@@ -1,6 +1,6 @@
 {
   "name": "@umi-ag/sui-coin-list",
-  "version": "0.202212.7",
+  "version": "0.202304.1",
   "description": "",
   "files": [
     "src",
@@ -29,10 +29,10 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-unused-imports": "^2.0.0",
     "rollup-plugin-node-polyfills": "^0.2.1",
-    "typescript": "^4.9.5",
-    "vite": "^3.2.6",
-    "vite-node": "^0.25.8",
-    "vite-plugin-dts": "^1.7.3",
-    "vite-tsconfig-paths": "^3.6.0"
+    "typescript": "^5.0.4",
+    "vite": "^4.3.3",
+    "vite-node": "^0.30.1",
+    "vite-plugin-dts": "^2.3.0",
+    "vite-tsconfig-paths": "^4.2.0"
   }
 }
