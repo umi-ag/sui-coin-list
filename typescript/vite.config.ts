@@ -22,7 +22,7 @@ export default defineConfig({
     target: "esnext",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "sui-coin-list",
+      name: "@umi-ag/sui-coin-list",
       formats: ["es", "umd"],
       fileName: (format) => {
         if (format === "es") {
