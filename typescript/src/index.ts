@@ -1,2 +1,1 @@
-export * from './coinList';
-
+export * from './type';

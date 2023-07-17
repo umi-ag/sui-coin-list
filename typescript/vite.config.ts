@@ -1,6 +1,6 @@
-import { defineConfig } from "vite";
-import dts from "vite-plugin-dts";
-import path from "path";
+import path from 'node:path';
+import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   plugins: [
@@ -8,34 +8,12 @@ export default defineConfig({
       insertTypesEntry: true,
     }),
   ],
-  resolve: {
-    alias: {
-      process: "process/browser",
-      stream: "rollup-plugin-node-polyfills/polyfills/stream",
-      events: "rollup-plugin-node-polyfills/polyfills/events",
-    },
-  },
-  define: {
-    "process.env": process.env ?? {},
-  },
   build: {
-    target: "esnext",
     lib: {
-      entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@umi-ag/sui-coin-list",
-      formats: ["es", "umd"],
-      fileName: (format) => {
-        if (format === "es") {
-          return "index.mjs";
-        } else if (format === "umd") {
-          return "index.js";
-        }
-      },
-    },
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      target: "esnext",
+      entry: path.resolve(__dirname, 'src/index.ts'),
+      name: 'index',
+      formats: ['es', 'umd'],
+      fileName: (format) => `index.${format}.js`,
     },
   },
 });
