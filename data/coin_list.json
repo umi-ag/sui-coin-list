@@ -5,7 +5,7 @@
     "name": "Sui",
     "symbol": "SUI",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/644b3314022eae0001db3110_coin_logo_bb22eaf116.png",
     "id": "0x9258181f5ceac8dbffb7030890243caed69a9599d2886d957a9cb7656af3bdb3"
   },
   {
@@ -14,7 +14,7 @@
     "name": "USD Coin",
     "symbol": "USDC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdc_019d7ef24b.png",
     "id": "0x4fbf84f3029bd0c0b77164b587963be957f853eccf834a67bb9ecba6ec80f189"
   },
   {
@@ -41,7 +41,7 @@
     "name": "Tether USD",
     "symbol": "USDT",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdt_8a23002ad6.png",
     "id": "0xfb0e3eb97dd158a5ae979dddfa24348063843c5b20eb8381dd5fa7c93699e45c"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/Eth_Logo_392bc9cc42.png",
     "id": "0x8900e4ceede3363bef086d6b50ca89d816d0e90bf6bc46efefe1f8455e08f50f"
   },
   {
@@ -158,7 +158,7 @@
     "name": "USD Coin",
     "symbol": "USDC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdc_019d7ef24b.png",
     "id": "0x39047ec989791d939efee4c9b9dbc6885c5d12a5aaacf44152319b2289ea9b9e"
   },
   {
@@ -167,7 +167,7 @@
     "name": "USD Coin (Arb1)",
     "symbol": "USDC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdc_019d7ef24b.png",
     "id": "0xe2720ee6eed0e11490bdbd1c6cc2282a7e442bf86c99a3a4ec67797c84b9fffc"
   },
   {
@@ -176,7 +176,7 @@
     "name": "USD Coin",
     "symbol": "USDC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdc_019d7ef24b.png",
     "id": "0x8a775c4bbc9639c88e86fdc624bb30d0bfd22a1597b03da29198de214ddaa126"
   },
   {
@@ -194,7 +194,7 @@
     "name": "SuiPad",
     "symbol": "SUIP",
     "description": "SuiPad The Premier Launchpad for Tier-1 Projects",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/Suip_Logo_9f03cfbd82.png",
     "id": "0x3e50a0a576877092bfaa4f8e4ec8cd7dd0a4a281bec3f806583949cf7873d07b"
   },
   {
@@ -239,7 +239,7 @@
     "name": "USD Coin (PoS)",
     "symbol": "USDC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdc_019d7ef24b.png",
     "id": "0xdb9ed08481f9dd565fd36b834eb3c2cda1ee5f388048154807cffcb0267ed3b2"
   },
   {
@@ -248,7 +248,7 @@
     "name": "Wrapped BNB",
     "symbol": "WBNB",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/bnb_bnb_logo_9f3ac1b3cd.png",
     "id": "0x1d0975ab0726f2e52384b6ea0f2c94c2dbdad8b004ee6b5ee552a3c789c044f0"
   },
   {
@@ -257,7 +257,7 @@
     "name": "Wrapped Matic",
     "symbol": "WMATIC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/Matic_6b74142178.webp",
     "id": "0xb45d92d3ee25147c3235f881e63f7f362f9d6cbdfcba1f120fae6a6c930a1c8c"
   },
   {
@@ -266,7 +266,7 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/wrapped_bitcoin_wbtc_aab8991f44.webp",
     "id": "0x5d3c6e60eeff8a05b693b481539e7847dfe33013e7070cdcb387f5c0cac05dfd"
   },
   {
@@ -275,7 +275,7 @@
     "name": "Wrapped SOL",
     "symbol": "SOL",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/Solana_bfa61e13d3.png",
     "id": "0x4d2c39082b4477e3e79dc4562d939147ab90c42fc5f3e4acf03b94383cd69b6e"
   },
   {
@@ -329,7 +329,7 @@
     "name": "Ethereum Token",
     "symbol": "ETH",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/Eth_Logo_392bc9cc42.png",
     "id": "0xbfcaf4b726ca7ae523289e03a2a82e892145b1a285cb3588c2e1de724d1bf6eb"
   },
   {
@@ -338,7 +338,7 @@
     "name": "Tether USD",
     "symbol": "USDT",
     "description": "",
-    "iconUrl": null,
+    "iconUrl": "https://strapi.scand.app/uploads/usdt_8a23002ad6.png",
     "id": "0xc72d1279a774a6720fa4b4793f3c925119ed99ee8bb14d7c8ff685997cfb41b3"
   },
   {
