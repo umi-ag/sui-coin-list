@@ -4,7 +4,7 @@ export type CoinProfile = {
   name: string;
   symbol: string;
   description: string;
-  iconUrl: string;
+  iconUrl: string | null;
   id: string;
   extensions?: Record<string, string>;
 }
