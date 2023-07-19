@@ -1,4 +1,3 @@
-import fetch from 'cross-fetch';
 import { CoinProfile } from './type';
 
 export const fetchCoinList = async () => {
